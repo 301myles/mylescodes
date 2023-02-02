@@ -1,0 +1,21 @@
+// Hiding sections on mobile
+@media screen and (max-width: 641px) {
+#block-yui_3_17_2_1_1671512570210_80637 {
+ display:none !important;
+  }
+}
+h3 strong{color:#1726AF}
+h2 strong{color:#A20D32}
+h1 strong{color:blue}
+@font-face { 
+font-family: 'poetsen'; 
+src: url('https://static1.squarespace.com/static/63a0f590ae559163fc434d98/t/63be46c2e29b136e050a811b/1673414338597/PoetsenOne-Regular.otf'); 
+}
+h3
+em { 
+font-family: 'poetsen'; 
+font-weight: 400; 
+font-style: normal; 
+font-size: 3.5rem; 
+line-height: 1rem; 
+}
