@@ -1,0 +1,25 @@
+// Myles Lewis Feb 1
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+     Scanner scan=new Scanner(System.in);
+     String name;
+          int num1 = 10;
+          int num2 = -5;
+          int num3 = 0;
+          double num4 = 12.5;
+          int age;
+
+          // 12.5 is not an int
+          System.out.println(num1);
+          System.out.println(num2);
+          System.out.println(num3);
+          System.out.println(num4);
+         System.out.println("Please enter your name");
+          name = scan.next();
+          System.out.println("Please enter your age");
+          age=scan.nextInt();                         
+        
+          System.out.println("Hello "+name+"!Next year you will be "+(age+1));
+     }
+}
