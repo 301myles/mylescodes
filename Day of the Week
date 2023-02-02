@@ -1,0 +1,25 @@
+//code used to figure out the day of the week by assigning days of the week numeric variables
+    import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+     Scanner my0bj = new Scanner(System.in);
+    String input;
+    System.out.println("Which numeric day of the week is it? (first/second/third/fourth/fifth/sixth/seventh)");
+    input = my0bj.nextLine();
+    if (input.equals("first")) 
+      System.out.println("It is Sunday.");
+      if (input.equals("second"))
+        System.out.println("It is Monday.");
+        if (input.equals("third"))
+          System.out.println("It is Tuesday.");
+          if (input.equals("fourth"))
+            System.out.println("It is Wednesday.");
+            if (input.equals("fifth"))
+              System.out.println("It is Thursday.");
+              if (input.equals("sixth"))
+                System.out.println("It is Friday.");
+                if (input.equals("seventh"))
+                  System.out.println("It is Saturday.");
+    
+  }
+}
