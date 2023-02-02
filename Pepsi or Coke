@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+     Scanner my0bj = new Scanner(System.in);
+    String input; 
+    System.out.println("Do you like pepsi or coke? (pepsi/coke)");
+    input = my0bj.nextLine(); //gets user input
+    if (input.equals("pepsi")) 
+      System.out.println("You like pepsi. Good choice!"); //output for pepsi
+    else
+      System.out.println("You like coke. Good choice!"); //output for coke
+  }
+}
