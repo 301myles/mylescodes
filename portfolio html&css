@@ -1,0 +1,31 @@
+<!--portfolio base//unfinished-->
+<body> <style>
+body {
+  background-color: white;
+}
+header { background-color: black; color: white;
+margin-top: 0px}
+
+h1 {
+  color: black;
+  margin-left: 0px;
+  margin-right: 100px;
+} 
+span { color: A20D32}
+</style>
+ <header> <h2>MYLES D. LEWIS</h2></header>
+<div id="I'm a product designer">
+    <h1><span>Hello! </span>I'm a product designer in NYC.</h1>
+  </div>
+   <div id="designing for">
+    <h2>I conduct user centered research to contribute to delightful digital experiences.
+    </h2>
+    </div> 
+    <div id="portfolio">
+      <h3>UX & UI Design</h3>
+      <span2>User Research • Writing • Wireframing • Prototyping</span2>
+      <br>
+      <img src="sRGB IEC61966-2.1" width="300" height="240">
+
+  
+</body>
